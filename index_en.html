@@ -41,6 +41,7 @@
     <!-- ******HEADER****** -->
     <header class="header" style="padding-top: 10px;padding-bottom: 10px;">
         <div class="container">
+            <span id="es" class="language-selector" data-toggle="tooltip" data-placement="bottom" title="Español"><a href="./index.html"><img src='assets/spa-flag.png' alt="es"/></a></span>
             <img class="profile-image img-responsive pull-left" src="assets/avatar (4).jpg" alt="JJ" style="height: 161px; border-radius: 80px;">
             <div class="profile-content pull-left">
                 <h1 class="name">José Javier Rodríguez Zas</h1>
@@ -53,18 +54,23 @@
                     <h2 class="heading sr-only">Basic Information</h2>
                     <div class="content">
                         <ul class="list-unstyled">
-                            <li><i class="fa fa-map-marker" style="margin-right: 15px;margin-left: 1px;font-size: 20px;"></i><span class="sr-only">Location:</span>Havana, Cuba</li>
+                            <li><i class="fa fa-map-marker" style="margin-right: 15px;margin-left: 1px;font-size: 20px;"></i><span class="sr-only">Location:</span>Madrid, Spain</li>
                             <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:jjavierdguezas@gmail.com">jjavierdguezas@gmail.com</a></li>
-                            <li><i class="fa fa-mobile" style="margin-left: 2px;margin-right: 16px;font-size: 24px;"></i><span class="sr-only">Mobile:</span><a href="tel:+5353308911">+53 53308911</a></li> 
-                            <li><i class="fa fa-user"></i><span class="sr-only">Portfolio:</span><a href="https://about.me/jjrz">www.about.me/jjrz</a></li>
+                            <li>
+                                <ul class="social list-inline">
+                                    <!-- <li><a href="https://www.github.com/jjavierdguezas"><i class="fa fa-github-alt"></i></a></li> -->
+                                    <li><a href="https://www.linkedin.com/in/jjavierdguezas"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://twitter.com/jotajota142857"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.facebook.com/JJavieRdgueZas"><i class="fa fa-facebook"></i></a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div id="language-selector"><a href="./index.html">es</a></div>
             </aside>
         </div>
         <!--//container-->
-
+        
     </header>
     <!--//header-->
 
@@ -76,25 +82,24 @@
                         <h2 class="heading">About Me</h2>
                         <div class="content">
                             <p style="text-align: justify;">
-                                My name is José Javier Rodríguez Zas. I'm 25 years old. I majored in Computer Science at the University of Havana on july
-                                2017. I am currently a professor there, teaching Introduction to Programming to newbie students
-                                of the Faculty of Math and Computer Science. I have also done some research on fields like
-                                Computer Graphics, Computer Animation and Procedural Content Generation. I have been recognized
-                                in some events as the Student Scientific Fair (2016) and the XXVI National Scientific
-                                Computer Competition (2016). Likewise, I participated in the ACM-ICPC programming contests
-                                reaching 12th place (out of a total of 46 teams) in the The 2014 ACM-ICPC Caribbean Finals.
+                                My name is José Javier Rodríguez Zas. I'm <span id="jj-age"></span> years old. 
+                                I majored in Computer Science at the University of Havana on july 2017. 
+                                I was an Intern there, teaching Introduction to Programming to newbie students of the Computer Science degree. 
+                                I have also done some research on fields like Computer Graphics, Computer Animation and Procedural Content Generation. 
+                                I have been recognized in some events as the Student Scientific Fair (2016) and the XXVI National Scientific Computer Competition (2016). 
+                                Likewise, I participated in the ACM-ICPC programming contests reaching 12th place (out of a total of 46 teams) in the The 2014 ACM-ICPC Caribbean Finals.
                             </p>
                             <p style="text-align: justify;">
-                                I'm also an active freelance web developer. In spite of my short age I have worked in several projects inside and outside
-                                of the school. I am a Windows user but I work with Linux very well. I can code in C#, Python, Ruby
-                                and other popular programming languages. Also, I can use the most common web development
-                                frameworks as ASP.NET MVC, Rails, Django and Symfony. I prefer to work in backend but I know
-                                enough to work in the frontend too. I like to learn new things and I like to think that I
-                                learn quickly. However, must of the time I'm just coding, either on some project, or a new
-                                idea, or just for fun.
+                                I'm also an active web developer. I am a Windows user but I work with Linux very well. 
+                                I can code in C#, Java, Python, Ruby and other popular programming languages. 
+                                Also, I can use the most common web development frameworks as ASP.NET MVC, Rails and Django. 
+                                I prefer to work in backend but I know enough to work in the frontend too. 
+                                I've recently fallen in love with .NetCore, ReactJS and TypeScript, I think they work very well together. 
                             </p>
-
-
+                            <p style="text-align: justify;">
+                                I like to learn new things and I like to think that I learn quickly. 
+                                However, must of the time I'm just coding, either on some project, or a new idea, or just for fun.
+                            </p>
                         </div>
                         <!--//content-->
                     </div>
@@ -119,25 +124,6 @@
                                 </p>
                             </div>
                             <!--//item-->
-
-                            <!-- <div class="item">
-                                <h3 class="title">Sistema de Gestion de Inmobiliaria <span class="label label-theme">ASP.NET MVC</span></h3>
-                                <p class="summary" style="text-align: justify;">
-                                    Project presented for the subject of Software Engineering. Created by a team of six people. It is an application for the
-                                    management of a real estate company (administration, purchase and sale of properties).
-                                    We were placed in a hypothetical scenario where a realistic project was created from
-                                    scratch. Information was exchanged with clients and customers. We feed back from this
-                                    information and develop the product step by step. Agile development strategies were used
-                                    and techniques were applied to plan the necessary time and tasks of each team member.
-                                    Developed in ASP.NET MVC and used technologies such as Entity Framework, jQuery, AJAX,
-                                    SharpMap and OpenLayers (for map integration). The database was created in both SQLite
-                                    and MS SQL Server. The application was fully developed and qualified with the highest
-                                    score
-                                </p>
-
-                            </div> -->
-                            <!--//item-->
-
 
                             <div class="item row">
                                 <h3 class="title col-md-12" style="margin-bottom: 10px;"> Kewelta <span class="label label-theme">Ruby On Rails</span><span class="label label-default" style="margin-left: 10px;">Backend</span></h3>
@@ -182,23 +168,6 @@
                                 </p>
                             </div>
                             <!--//item-->
-                            <!-- MOG>
-                            <!-->
-                            <div class="item row">
-                                <h3 class="title col-md-12" style="margin-bottom: 10px;"> Matcom Online Grader <span class="label label-theme">Django</span><span class="label label-default" style="margin-left: 10px;">Backend</span></h3>
-                                <img src="assets/mog.png" alt="MOG" style="width: 25%;" class="col-md-3 img-responsive project-image">
-                                <p style="padding-top: 0;margin-bottom: 0px;text-align: justify;padding-left: 0px;" class="col-md-9 summary">
-                                    The <em>MOG</em>  (<a href="http://matcomgrader.com/">matcomgrader.com</a>)  is a website developed in Django for the training of ACM-ICPC
-                                    contestants in the Faculty of Math and Computer Science of the University of Havana.
-                                    It contains a broad set of problems that serve as practice to contestants. The application
-                                    allows to qualify the users submission (attempts of solution to problems) in real time
-                                    and gives feedback of the possible errors. It allows the creation of real-time contests
-                                    and the administration of the standings. The site has been growing over time and is now
-                                    used as study material in other subjects of the Computer Science degree. I joined the
-                                    team a few months ago and I am currently in charge of its maintenance, continuous updating
-                                    and development of new features.
-                                </p>
-                            </div>
 
                             <div class="item row">
                                 <h3 class="title col-md-12" style="margin-bottom: 10px;"> Viera Academy <span class="label label-theme">ASP.NET MVC</span><span class="label label-default" style="margin-left: 10px;">Backend</span><span class="label label-primary" style="margin-left: 10px;">Frontend</span></h3>
@@ -268,7 +237,17 @@
                                 <!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">Ruby<span class="level-label" data-original-title="" title="">Advanced</span></h3>
+                                    <h3 class="level-title">Javascript<span class="level-label" data-original-title="" title="">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%" style="width: 90%;">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">TypeScript<span class="level-label" data-original-title="" title="">Advanced</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="85%" style="width: 85%;">
                                         </div>
@@ -278,27 +257,18 @@
                                 <!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">Javascript<span class="level-label" data-original-title="" title="">Pro</span></h3>
+                                    <h3 class="level-title">Ruby<span class="level-label" data-original-title="" title="">Advanced</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="86%" style="width: 86%;">
+                                        <div class="level-bar-inner" data-level="85%" style="width: 85%;">
                                         </div>
                                     </div>
                                     <!--//level-bar-->
                                 </div>
                                 <!--//item-->
+
 
                                 <div class="item">
                                     <h3 class="level-title">Java<span class="level-label" data-original-title="" title="">Good</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%" style="width: 80%;">
-                                        </div>
-                                    </div>
-                                    <!--//level-bar-->
-                                </div>
-                                <!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">TypeScript<span class="level-label" data-original-title="" title="">Good</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="80%" style="width: 80%;">
                                         </div>
@@ -316,17 +286,6 @@
                                     <!--//level-bar-->
                                 </div>
                                 <!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">PHP<span class="level-label" data-original-title="" title="">Good</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%" style="width: 70%;">
-                                        </div>
-                                    </div>
-                                    <!--//level-bar-->
-                                </div>
-                                <!--//item-->
-
 
                             </div>
                         </div>
@@ -384,9 +343,9 @@
                                 <!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">Frontend Web Development<span class="level-label" data-original-title="" title="">Good</span></h3>
+                                    <h3 class="level-title">Frontend Web Development<span class="level-label" data-original-title="" title="">Advanced</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%" style="width: 75%;">
+                                        <div class="level-bar-inner" data-level="85%" style="width: 85%;">
                                         </div>
                                     </div>
                                     <!--//level-bar-->
@@ -420,14 +379,14 @@
 
                 <aside class="skills aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Web Frameworks</h2>
+                        <h2 class="heading">Frameworks</h2>
                         <div class="content">
                             <div class="skillset">
 
                                 <div class="item">
                                     <h3 class="level-title">ASP.NET MVC<span class="level-label" data-original-title="" title="">Pro</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="90%" style="width: 90%;">
+                                        <div class="level-bar-inner" data-level="92%" style="width: 92%;">
                                         </div>
                                     </div>
                                     <!--//level-bar-->
@@ -435,7 +394,17 @@
                                 <!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">Ruby On Rails<span class="level-label" data-original-title="" title="">Pro</span></h3>
+                                        <h3 class="level-title">ASP.NET Core<span class="level-label" data-original-title="" title="">Advanced</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="88%" style="width: 88%;">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">ReactJS<span class="level-label" data-original-title="" title="">Advanced</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="85%" style="width: 85%;">
                                         </div>
@@ -445,26 +414,25 @@
                                 <!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">Django<span class="level-label" data-original-title="" title="">Advanced</span></h3>
+                                    <h3 class="level-title">Ruby On Rails<span class="level-label" data-original-title="" title="">Advanced</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%" style="width: 75%;">
+                                        <div class="level-bar-inner" data-level="80%" style="width: 80%;">
                                         </div>
                                     </div>
                                     <!--//level-bar-->
                                 </div>
                                 <!--//item-->
-
-
 
                                 <div class="item">
-                                    <h3 class="level-title">Symfony<span class="level-label" data-original-title="" title="">Good</span></h3>
+                                    <h3 class="level-title">Django<span class="level-label" data-original-title="" title="">Advanced</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%" style="width: 70%;">
+                                        <div class="level-bar-inner" data-level="80%" style="width: 80%;">
                                         </div>
                                     </div>
                                     <!--//level-bar-->
                                 </div>
                                 <!--//item-->
+
                             </div>
                         </div>
                         <!--//content-->
