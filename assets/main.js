@@ -24,13 +24,14 @@ jQuery(document).ready(function($) {
     $('[data-toggle="tooltip"]').tooltip()
 
 
-    $("#jj-age").html(age(new Date(1993, 6, 21)));
+    $("#jj-age").html(age(new Date(1993, 5, 21)));
 
 
 });
 
-function age(birthday)
-{
-  birthday = new Date(birthday);
-  return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0);
+function age(dob) { 
+    var diff_ms = Date.now() - dob.getTime();
+    var age_dt = new Date(diff_ms); 
+  
+    return Math.abs(age_dt.getUTCFullYear() - 1970);
 }
