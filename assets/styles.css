@@ -537,15 +537,9 @@ a.dotted-link:hover {
 }
 
 .language-selector{
-  position: relative;
-  top: -1vh;
-}
-#en.language-selector{
-  right: -38vw;
-}
-
-#es.language-selector{
-  right: -45vw;
+  position: absolute;
+  top: 1vh;
+  right: 5px;
 }
 
 .language-selector a{
